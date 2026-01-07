@@ -1,3 +1,4 @@
 tasks = ["Task 1"]
 
-print(tasks[5])
+if len(tasks) > 0:
+    print(tasks[0])
