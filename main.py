@@ -1,7 +1,3 @@
-tasks = ["Task 1", "Task 2"]
+tasks = ["Task 1"]
 
-def view_tasks():
-    for i, task in enumerate(tasks):
-        print(f"{i+1}. {task}")
-
-view_tasks()
+print(tasks[5])
