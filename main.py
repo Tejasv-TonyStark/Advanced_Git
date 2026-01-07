@@ -1,10 +1,7 @@
-tasks = []
+tasks = ["Task 1", "Task 2"]
 
-def add_task(task):
-    if task.strip() == "":
-        print("Task cannot be empty")
-        return
-    tasks.append(task)
+def view_tasks():
+    for i, task in enumerate(tasks):
+        print(f"{i+1}. {task}")
 
-add_task("Sample task")
-print(tasks)
+view_tasks()
